@@ -1,0 +1,98 @@
+[2023-01-12  10:49:48] test_question.py -> test_api_question line:17 [INFO] : 获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  10:49:48] test_question.py -> test_api_question line:23 [INFO] : 获取接口响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  10:49:48] test_question.py -> test_api_question line:28 [INFO] : 断言内容：401 == 401
+[2023-01-12  10:49:49] test_question.py -> test_api_question line:17 [INFO] : 获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  10:49:49] test_question.py -> test_api_question line:23 [INFO] : 获取接口响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  10:49:49] test_question.py -> test_api_question line:28 [INFO] : 断言内容：401 == 401
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:25 [INFO] : 响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:31 [INFO] : 断言内容：401 == 401
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:25 [INFO] : 响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  14:45:36] test_question.py -> test_api_question line:31 [INFO] : 断言内容：401 == 401
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:25 [INFO] : 响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:31 [INFO] : 断言内容：401 == 401
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:25 [INFO] : 响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:07:41] test_question.py -> test_api_question line:31 [INFO] : 断言内容：401 == 401
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:31 [INFO] :    断言内容：401 == 401
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:08:16] test_question.py -> test_api_question line:31 [INFO] :    断言内容：401 == 401
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 400}}
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:33 [ERROR] :   断言内容不符！：401 ！= 400，请排查......
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:08:34] test_question.py -> test_api_question line:31 [INFO] :    断言内容：401 == 401
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 400}}
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:33 [ERROR] :   断言内容不符！：401 ！= 400，请排查......
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:31 [INFO] :    断言内容：401 == 401
+[2023-01-12  15:12:23] test_question.py -> test_api_question line:33 [ERROR] :   断言内容不符！：401 ！= 401，请排查......
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 400}}
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:33 [ERROR] :   断言内容不符！：401 ！= 400，请排查......
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:34 [ERROR] : assert 401 == 400
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:15:15] test_question.py -> test_api_question line:31 [INFO] :    断言内容：401 == 401
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 400}}
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:33 [ERROR] :   断言异常！：assert 401 == 400，请排查......
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:16:54] test_question.py -> test_api_question line:31 [INFO] :    断言内容：401 == 401
+[2023-01-12  15:17:57] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 200}}
+[2023-01-12  15:17:57] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:17:58] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:17:58] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:17:58] test_question.py -> test_api_question line:33 [ERROR] :   断言异常！：assert 401 == 200，请排查......
+[2023-01-12  15:17:58] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:17:58] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:17:58] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:17:58] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:17:58] test_question.py -> test_api_question line:31 [INFO] :    断言内容：401 == 401
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 200}}
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:33 [ERROR] :   断言异常！：assert 401 == 200，请排查......
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:17 [INFO] : 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:19 [INFO] : 步骤2.获取接口响应内容
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:25 [INFO] :    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:27 [INFO] : 步骤3.进行断言
+[2023-01-12  15:32:59] test_question.py -> test_api_question line:31 [INFO] :    断言内容：401 == 401

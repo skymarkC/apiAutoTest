@@ -1,0 +1,31 @@
+[2023-01-11  17:02:50] log.py -> <module> line:112 [INFO] : 绿色测试日志保存路径../log2023-1-11.log
+[2023-01-11  17:02:50] log.py -> <module> line:113 [WARNING] : 颜色
+[2023-01-11  17:02:50] log.py -> <module> line:114 [ERROR] : error
+[2023-01-11  17:02:50] log.py -> <module> line:115 [CRITICAL] : critical
+[2023-01-11  17:03:38] log.py -> <module> line:109 [INFO] : 绿色测试日志保存路径../log2023-1-11.log
+[2023-01-11  17:03:38] log.py -> <module> line:110 [WARNING] : 颜色
+[2023-01-11  17:03:38] log.py -> <module> line:111 [ERROR] : error
+[2023-01-11  17:03:38] log.py -> <module> line:112 [CRITICAL] : critical
+[2023-01-11  17:13:30] test_question.py -> test_api_question line:18 [INFO] : dd
+[2023-01-11  17:13:30] test_question.py -> test_api_question line:18 [INFO] : dd
+[2023-01-11  17:14:19] test_question.py -> test_api_question line:18 [INFO] : dd
+[2023-01-11  17:14:20] test_question.py -> test_api_question line:18 [INFO] : dd
+[2023-01-11  17:15:35] log.py -> <module> line:108 [DEBUG] : 颜色
+[2023-01-11  17:15:35] log.py -> <module> line:109 [INFO] : 绿色测试日志保存路径../log2023-1-11.log
+[2023-01-11  17:15:35] log.py -> <module> line:110 [WARNING] : 颜色
+[2023-01-11  17:15:35] log.py -> <module> line:111 [ERROR] : error
+[2023-01-11  17:15:35] log.py -> <module> line:112 [CRITICAL] : critical
+[2023-01-11  17:16:42] test_question.py -> test_api_question line:17 [INFO] : 获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-11  17:16:42] test_question.py -> test_api_question line:17 [INFO] : 获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-11  17:19:01] test_question.py -> test_api_question line:17 [INFO] : 获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-11  17:19:01] test_question.py -> test_api_question line:23 [INFO] : 获取接口响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-11  17:19:01] test_question.py -> test_api_question line:28 [INFO] : 断言内容：401==401
+[2023-01-11  17:19:01] test_question.py -> test_api_question line:17 [INFO] : 获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-11  17:19:01] test_question.py -> test_api_question line:23 [INFO] : 获取接口响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-11  17:19:01] test_question.py -> test_api_question line:28 [INFO] : 断言内容：401==401
+[2023-01-11  17:30:44] test_question.py -> test_api_question line:17 [INFO] : 获取yaml文件中的接口用例：{'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LXRlbmFudGFkbWluQGNtaWN0LmNoaW5hbW9iaWxlLmNvbSIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwidXNlcklkIjoiM2QyMmQ4MDAtNmZiOS0xMWVkLTk0ODYtMjlmYjgzYjNlOTc4IiwiZmlyc3ROYW1lIjoi5byA5Y-R5rWL6K-VIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjE5ZDk1NWUwLTZmYjktMTFlZC05NDg2LTI5ZmI4M2IzZTk3OCIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAiLCJpc3MiOiJpb3Qtb25lY2l0eSIsImlhdCI6MTY3MzM0MzI5NSwiZXhwIjoxNjczMzUyMjk1fQ.Jbm9k_3hYzcl9XU4obsh6l7B5-NaICotovx4YRo79YqiAStIp3gtl3E2bsfVUJ340TJuBK4Q3N7Z1PIV3vilig', 'name': '题目管理接口-正向用例', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-11  17:30:44] test_question.py -> test_api_question line:23 [INFO] : 获取接口响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-11  17:30:44] test_question.py -> test_api_question line:28 [INFO] : 断言内容：401 == 401
+[2023-01-11  17:30:44] test_question.py -> test_api_question line:17 [INFO] : 获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+[2023-01-11  17:30:44] test_question.py -> test_api_question line:23 [INFO] : 获取接口响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+[2023-01-11  17:30:44] test_question.py -> test_api_question line:28 [INFO] : 断言内容：401 == 401

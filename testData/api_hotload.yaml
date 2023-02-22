@@ -1,0 +1,10 @@
+-
+  token: ${read_testcase_yaml(C://Users//SZY//Desktop//pytest-allure//testData//get_token.yaml)}   # yaml文件内容部热加载${fun(parm)}
+  name: 题目管理接口-反向用例（token异常值）
+  request:
+    method: post
+    url: http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1
+    data:
+  validate:
+    code: 401
+    test_parm: ${PARM}

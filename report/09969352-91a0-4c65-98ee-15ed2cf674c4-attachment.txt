@@ -1,0 +1,5 @@
+INFO     test:test_question.py:17 步骤1.获取yaml文件中的接口用例：{'token': 'Bearer aabbcc', 'name': '题目管理接口-反向用例（token异常值）', 'request': {'method': 'post', 'url': 'http://10.11.4.239:30158/prod-api/exam-service/question/page?pageSize=10&pageNum=1', 'data': None}, 'validate': {'code': 401}}
+INFO     test:test_question.py:19 步骤2.获取接口响应内容
+INFO     test:test_question.py:25    响应内容：{'code': 401, 'msg': '令牌已过期或验证不正确！'}
+INFO     test:test_question.py:27 步骤3.进行断言
+INFO     test:test_question.py:32    断言内容：401 == 401
